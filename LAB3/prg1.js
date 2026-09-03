@@ -8,5 +8,5 @@ server.on('request',(req,res)=>{
 });
 
 server.listen(4444, ()=>{
-    console.log("Server is running.....");
+    console.log("Server is running....");
 });
