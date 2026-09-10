@@ -1,11 +1,11 @@
 {
   "name": "lab3",
   "version": "1.0.0",
-  "description": "It is built in Node.js Module which allow developer to create web server and client without installing ny external package.\r one of the most in=mportant module in Node.js,originally designed for building scalable network application on web server.\r 1.Creat web server.\r 2.Handle client request.\r 3.Build REST APIs.\r 4.Non-Blocking I/O.\r 5.Foundation of Express.js",
+  "description": "It is built in Node.js Module which allows developers to create web server and web client without installing any external package. one of the most important module in Node.js, originally designed for building scalable network application and web servers.",
   "main": "prg1.js",
   "scripts": {
     "start": "node prg3.js",
-    "dev":"nodemon prg3.js"33
+    "dev": "nodemon prg6.js"
   },
   "keywords": [],
   "author": "",
@@ -13,5 +13,8 @@
   "type": "module",
   "devDependencies": {
     "nodemon": "^3.1.14"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.8"
   }
 }
